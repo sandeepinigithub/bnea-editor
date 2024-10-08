@@ -1,2 +1,14 @@
-<ckeditor [(ngModel)]="editorData" [editor]="Editor" [config]="editorConfig"></ckeditor>
+<!-- <ckeditor [(ngModel)]="editorData" [editor]="Editor" [config]="editorConfig"></ckeditor> -->
+
+<div>
+	<div class="main-container">
+		<div class="editor-container editor-container_classic-editor editor-container_include-style" #editorContainerElement>
+			<div class="editor-container__editor">
+				<div #editorElement>
+					<ckeditor [editor]="Editor" [config]="config" *ngIf="isLayoutReady" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
