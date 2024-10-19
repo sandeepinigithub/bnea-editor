@@ -22,7 +22,6 @@
     "@ckeditor/ckeditor5-build-classic": "^43.2.0",
     "@ckeditor/ckeditor5-watchdog": "^43.2.0",
     "ckeditor5": "^43.2.0",
-    "ckeditor5-premium-features": "^43.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
